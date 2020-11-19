@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CC01.WinForms
+namespace Ecole.WinForms
 {
-    public partial class Etudiant : Form
+    public partial class Ecole : Form
     {
-        public Etudiant()
+        public Ecole()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

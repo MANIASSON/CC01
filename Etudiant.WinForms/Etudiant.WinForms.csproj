@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DFDBCFDB-F7BA-4B4E-8695-7656BE6A5AD0}</ProjectGuid>
+    <ProjectGuid>{67A76EC2-4F61-4D6F-89D5-9CC7E4BBB00C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CC01.WinForms</RootNamespace>
-    <AssemblyName>CC01.WinForms</AssemblyName>
+    <RootNamespace>Etudiant.WinForms</RootNamespace>
+    <AssemblyName>Etudiant.WinForms</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,26 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreateEtudiant.cs">
+    <Compile Include="Etudiants.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreateEtudiant.Designer.cs">
-      <DependentUpon>CreateEtudiant.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Parents.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Parents.Designer.cs">
-      <DependentUpon>Parents.cs</DependentUpon>
+    <Compile Include="Etudiants.Designer.cs">
+      <DependentUpon>Etudiants.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CarteImprime.rdlc" />
-    <EmbeddedResource Include="CreateEtudiant.resx">
-      <DependentUpon>CreateEtudiant.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Parents.resx">
-      <DependentUpon>Parents.cs</DependentUpon>
+    <EmbeddedResource Include="Etudiants.resx">
+      <DependentUpon>Etudiants.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

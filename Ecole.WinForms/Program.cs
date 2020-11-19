@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CC01.WinForms
+namespace Ecole.WinForms
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace CC01.WinForms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CreateEtudiant());
+            Application.Run(new Ecole());
         }
     }
 }
