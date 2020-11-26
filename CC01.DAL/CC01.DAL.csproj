@@ -71,11 +71,5 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CC.BO\CC.BO.csproj">
-      <Project>{073be246-f496-4bde-9358-b53ba7c92725}</Project>
-      <Name>CC.BO</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

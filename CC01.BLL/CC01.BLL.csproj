@@ -67,10 +67,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CC.BO\CC.BO.csproj">
-      <Project>{073be246-f496-4bde-9358-b53ba7c92725}</Project>
-      <Name>CC.BO</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CC01.DAL\CC01.DAL.csproj">
       <Project>{5cc65902-139a-4cf8-9d59-d41bf21911ba}</Project>
       <Name>CC01.DAL</Name>

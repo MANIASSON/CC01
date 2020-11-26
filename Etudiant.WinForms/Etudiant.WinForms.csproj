@@ -100,10 +100,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CC.BO\CC.BO.csproj">
-      <Project>{073BE246-F496-4BDE-9358-B53BA7C92725}</Project>
-      <Name>CC.BO</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CC01.BLL\CC01.BLL.csproj">
       <Project>{6C2DF133-25CB-476E-873F-F7CEDA91BB17}</Project>
       <Name>CC01.BLL</Name>
