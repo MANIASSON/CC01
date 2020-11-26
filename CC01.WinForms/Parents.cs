@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -10,19 +12,26 @@ using System.Windows.Forms;
 
 namespace CC01.WinForms
 {
-    public partial class Parents : Form
+    public partial class Parent : Form
     {
-        public Parents()
+        public FrmParent()
         {
             InitializeComponent();
         }
 
-        private void deconneToolStripMenuItem_Click(object sender, EventArgs e)
+        private void etudiantsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Form f = new Etudiants();
+            f.Show();
         }
 
-        private void quitterToolStripMenuItem_Click(object sender, EventArgs e)
+        private void etudiantsToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form f = new Ecole();
+            f.Show();
+        }
+
+        private void FrmParent_Load(object sender, EventArgs e)
         {
 
         }

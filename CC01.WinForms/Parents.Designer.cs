@@ -1,6 +1,6 @@
 ﻿namespace CC01.WinForms
 {
-    partial class Parents
+    partial class Parent
     {
         /// <summary>
         /// Required designer variable.
@@ -33,10 +33,10 @@
             this.gererToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deconneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deconnectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,22 +68,34 @@
             this.deconneToolStripMenuItem,
             this.quitterToolStripMenuItem});
             this.gererToolStripMenuItem.Name = "gererToolStripMenuItem";
-            this.gererToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gererToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.gererToolStripMenuItem.Text = "Gerer";
             // 
             // deconneToolStripMenuItem
             // 
             this.deconneToolStripMenuItem.Name = "deconneToolStripMenuItem";
-            this.deconneToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.deconneToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.deconneToolStripMenuItem.Text = "Etudiants";
-            this.deconneToolStripMenuItem.Click += new System.EventHandler(this.deconneToolStripMenuItem_Click);
+
             // 
             // quitterToolStripMenuItem
             // 
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.quitterToolStripMenuItem.Text = "Ecole";
-            this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
+
+            // 
+            // deconnectionToolStripMenuItem
+            // 
+            this.deconnectionToolStripMenuItem.Name = "deconnectionToolStripMenuItem";
+            this.deconnectionToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.deconnectionToolStripMenuItem.Text = "Deconnection";
+            // 
+            // quitterToolStripMenuItem1
+            // 
+            this.quitterToolStripMenuItem1.Name = "quitterToolStripMenuItem1";
+            this.quitterToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.quitterToolStripMenuItem1.Text = "Quitter";
             // 
             // optionToolStripMenuItem
             // 
@@ -97,18 +109,6 @@
             this.aideToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.aideToolStripMenuItem.Text = "Aide";
             // 
-            // deconnectionToolStripMenuItem
-            // 
-            this.deconnectionToolStripMenuItem.Name = "deconnectionToolStripMenuItem";
-            this.deconnectionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.deconnectionToolStripMenuItem.Text = "Deconnection";
-            // 
-            // quitterToolStripMenuItem1
-            // 
-            this.quitterToolStripMenuItem1.Name = "quitterToolStripMenuItem1";
-            this.quitterToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.quitterToolStripMenuItem1.Text = "Quitter";
-            // 
             // Parents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -118,6 +118,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Parents";
             this.Text = "Parents";
+          
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

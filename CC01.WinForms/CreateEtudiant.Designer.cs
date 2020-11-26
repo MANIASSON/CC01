@@ -1,6 +1,6 @@
 ﻿namespace CC01.WinForms
 {
-    partial class CreateEtudiant
+    partial class FrmCreateEtudiant
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.button2 = new System.Windows.Forms.Button();
-            this.textEMAIL = new System.Windows.Forms.TextBox();
-            this.textTELEPHONE = new System.Windows.Forms.TextBox();
-            this.textIDENTIFIANT = new System.Windows.Forms.TextBox();
-            this.textNATIONALITE = new System.Windows.Forms.TextBox();
-            this.textDATEDENAISSANCE = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtContact = new System.Windows.Forms.TextBox();
+            this.txtIdentifiant = new System.Windows.Forms.TextBox();
+            this.txtLieuxNaissance = new System.Windows.Forms.TextBox();
+            this.txtDatedeNaissance = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textPRENOM = new System.Windows.Forms.TextBox();
-            this.textNOM = new System.Windows.Forms.TextBox();
+            this.txtPrenom = new System.Windows.Forms.TextBox();
+            this.txtNom = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -44,6 +44,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtSexe = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button2
@@ -57,45 +59,45 @@
             this.button2.Text = "CANCEL";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // textEMAIL
+            // txtEmail
             // 
-            this.textEMAIL.Location = new System.Drawing.Point(328, 217);
-            this.textEMAIL.Multiline = true;
-            this.textEMAIL.Name = "textEMAIL";
-            this.textEMAIL.Size = new System.Drawing.Size(245, 36);
-            this.textEMAIL.TabIndex = 32;
+            this.txtEmail.Location = new System.Drawing.Point(328, 217);
+            this.txtEmail.Multiline = true;
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(245, 36);
+            this.txtEmail.TabIndex = 32;
             // 
-            // textTELEPHONE
+            // txtContact
             // 
-            this.textTELEPHONE.Location = new System.Drawing.Point(328, 131);
-            this.textTELEPHONE.Multiline = true;
-            this.textTELEPHONE.Name = "textTELEPHONE";
-            this.textTELEPHONE.Size = new System.Drawing.Size(245, 37);
-            this.textTELEPHONE.TabIndex = 31;
+            this.txtContact.Location = new System.Drawing.Point(328, 131);
+            this.txtContact.Multiline = true;
+            this.txtContact.Name = "txtContact";
+            this.txtContact.Size = new System.Drawing.Size(245, 37);
+            this.txtContact.TabIndex = 31;
             // 
-            // textIDENTIFIANT
+            // txtIdentifiant
             // 
-            this.textIDENTIFIANT.Location = new System.Drawing.Point(328, 49);
-            this.textIDENTIFIANT.Multiline = true;
-            this.textIDENTIFIANT.Name = "textIDENTIFIANT";
-            this.textIDENTIFIANT.Size = new System.Drawing.Size(245, 38);
-            this.textIDENTIFIANT.TabIndex = 30;
+            this.txtIdentifiant.Location = new System.Drawing.Point(328, 49);
+            this.txtIdentifiant.Multiline = true;
+            this.txtIdentifiant.Name = "txtIdentifiant";
+            this.txtIdentifiant.Size = new System.Drawing.Size(245, 38);
+            this.txtIdentifiant.TabIndex = 30;
             // 
-            // textNATIONALITE
+            // txtLieuxNaissance
             // 
-            this.textNATIONALITE.Location = new System.Drawing.Point(48, 304);
-            this.textNATIONALITE.Multiline = true;
-            this.textNATIONALITE.Name = "textNATIONALITE";
-            this.textNATIONALITE.Size = new System.Drawing.Size(245, 35);
-            this.textNATIONALITE.TabIndex = 29;
+            this.txtLieuxNaissance.Location = new System.Drawing.Point(48, 304);
+            this.txtLieuxNaissance.Multiline = true;
+            this.txtLieuxNaissance.Name = "txtLieuxNaissance";
+            this.txtLieuxNaissance.Size = new System.Drawing.Size(245, 35);
+            this.txtLieuxNaissance.TabIndex = 29;
             // 
-            // textDATEDENAISSANCE
+            // txtDatedeNaissance
             // 
-            this.textDATEDENAISSANCE.Location = new System.Drawing.Point(48, 216);
-            this.textDATEDENAISSANCE.Multiline = true;
-            this.textDATEDENAISSANCE.Name = "textDATEDENAISSANCE";
-            this.textDATEDENAISSANCE.Size = new System.Drawing.Size(231, 37);
-            this.textDATEDENAISSANCE.TabIndex = 28;
+            this.txtDatedeNaissance.Location = new System.Drawing.Point(48, 216);
+            this.txtDatedeNaissance.Multiline = true;
+            this.txtDatedeNaissance.Name = "txtDatedeNaissance";
+            this.txtDatedeNaissance.Size = new System.Drawing.Size(231, 37);
+            this.txtDatedeNaissance.TabIndex = 28;
             // 
             // button1
             // 
@@ -108,21 +110,21 @@
             this.button1.Text = "SAVE";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // textPRENOM
+            // txtPrenom
             // 
-            this.textPRENOM.Location = new System.Drawing.Point(48, 130);
-            this.textPRENOM.Multiline = true;
-            this.textPRENOM.Name = "textPRENOM";
-            this.textPRENOM.Size = new System.Drawing.Size(231, 38);
-            this.textPRENOM.TabIndex = 26;
+            this.txtPrenom.Location = new System.Drawing.Point(48, 130);
+            this.txtPrenom.Multiline = true;
+            this.txtPrenom.Name = "txtPrenom";
+            this.txtPrenom.Size = new System.Drawing.Size(231, 38);
+            this.txtPrenom.TabIndex = 26;
             // 
-            // textNOM
+            // txtNom
             // 
-            this.textNOM.Location = new System.Drawing.Point(48, 52);
-            this.textNOM.Multiline = true;
-            this.textNOM.Name = "textNOM";
-            this.textNOM.Size = new System.Drawing.Size(231, 35);
-            this.textNOM.TabIndex = 25;
+            this.txtNom.Location = new System.Drawing.Point(48, 52);
+            this.txtNom.Multiline = true;
+            this.txtNom.Name = "txtNom";
+            this.txtNom.Size = new System.Drawing.Size(231, 35);
+            this.txtNom.TabIndex = 25;
             // 
             // label7
             // 
@@ -130,9 +132,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(325, 102);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(99, 16);
+            this.label7.Size = new System.Drawing.Size(80, 16);
             this.label7.TabIndex = 24;
-            this.label7.Text = "TELEPHONE";
+            this.label7.Text = "CONTACT";
             // 
             // label6
             // 
@@ -157,12 +159,12 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(45, 278);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 16);
+            this.label4.Size = new System.Drawing.Size(164, 20);
             this.label4.TabIndex = 21;
-            this.label4.Text = "NATIONALITE";
+            this.label4.Text = "LIEUXNAISSANCE";
             // 
             // label3
             // 
@@ -196,21 +198,41 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "NOM";
             // 
-            // CreateEtudiant
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(325, 278);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(47, 16);
+            this.label8.TabIndex = 34;
+            this.label8.Text = "SEXE";
+            // 
+            // txtSexe
+            // 
+            this.txtSexe.Location = new System.Drawing.Point(328, 303);
+            this.txtSexe.Multiline = true;
+            this.txtSexe.Name = "txtSexe";
+            this.txtSexe.Size = new System.Drawing.Size(245, 36);
+            this.txtSexe.TabIndex = 35;
+            // 
+            // FrmCreateEtudiant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
             this.ClientSize = new System.Drawing.Size(625, 448);
+            this.Controls.Add(this.txtSexe);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textEMAIL);
-            this.Controls.Add(this.textTELEPHONE);
-            this.Controls.Add(this.textIDENTIFIANT);
-            this.Controls.Add(this.textNATIONALITE);
-            this.Controls.Add(this.textDATEDENAISSANCE);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtContact);
+            this.Controls.Add(this.txtIdentifiant);
+            this.Controls.Add(this.txtLieuxNaissance);
+            this.Controls.Add(this.txtDatedeNaissance);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textPRENOM);
-            this.Controls.Add(this.textNOM);
+            this.Controls.Add(this.txtPrenom);
+            this.Controls.Add(this.txtNom);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -218,7 +240,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "CreateEtudiant";
+            this.Name = "FrmCreateEtudiant";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -227,14 +249,14 @@
 
         #endregion
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textEMAIL;
-        private System.Windows.Forms.TextBox textTELEPHONE;
-        private System.Windows.Forms.TextBox textIDENTIFIANT;
-        private System.Windows.Forms.TextBox textNATIONALITE;
-        private System.Windows.Forms.TextBox textDATEDENAISSANCE;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtContact;
+        private System.Windows.Forms.TextBox txtIdentifiant;
+        private System.Windows.Forms.TextBox txtLieuxNaissance;
+        private System.Windows.Forms.TextBox txtDatedeNaissance;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textPRENOM;
-        private System.Windows.Forms.TextBox textNOM;
+        private System.Windows.Forms.TextBox txtPrenom;
+        private System.Windows.Forms.TextBox txtNom;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -242,6 +264,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtSexe;
     }
 }
 
