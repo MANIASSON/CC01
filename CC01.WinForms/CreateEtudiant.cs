@@ -1,6 +1,5 @@
 ﻿using CC01.BO;
 using System;
-using CC01.BLO;
 using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,25 +11,26 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
 using System.Security.Cryptography.X509Certificates;
+using CC01.BLL;
 
 namespace CC01.WinForms
 {
-    public partial class FrmCreateEtudiant : Form
+    public partial class CreateEtudiant : Form
     {
         private Action callBack;
         private Etudiants oldEtudiant;
 
-        public FrmCreateEtudiant()
+        public CreateEtudiant()
         {
             InitializeComponent();
         }
 
-        public FrmCreateEtudiant(Action callBack) : this()
+        public CreateEtudiant(Action callBack) : this()
         {
             this.callBack = callBack;
         }
 
-        public FrmCreateEtudiant(Etudiants etudiants, Action callBack) : this(callBack)
+        public CreateEtudiant(Etudiants etudiants, Action callBack) : this(callBack)
         {
             this.oldEtudiant = etudiants;
             txtNom.Text = etudiants.Nom;
@@ -161,7 +161,17 @@ namespace CC01.WinForms
                 throw new TypingException(text);
         }
 
-        private void FrmCreateEtudiant_Load(object sender, EventArgs e)
+        private void CreateEtudiant_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CreateEtudiant_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CreateEtudiant_Load_2(object sender, EventArgs e)
         {
 
         }

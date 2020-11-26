@@ -198,6 +198,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmCreateEcole";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmCreateEcole_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

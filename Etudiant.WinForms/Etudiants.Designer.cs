@@ -179,6 +179,7 @@
             this.Controls.Add(this.button1);
             this.Name = "FrmEtudiantEdit";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmEtudiantEdit_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

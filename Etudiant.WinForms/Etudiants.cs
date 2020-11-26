@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using CC01.WinForms;
 using CC01.BO;
 using CC01.BLL;
-using CC01.DAL;
 using System.Configuration;
 
 namespace CC01.WinForms
@@ -147,6 +146,11 @@ namespace CC01.WinForms
         private void FrmEtudiantEdit_Load(object sender, EventArgs e)
         {
             loadData();
+        }
+
+        private void FrmEtudiantEdit_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace CC01.WinForms
 {
-    partial class FrmCreateEtudiant
+    partial class CreateEtudiant
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -216,7 +216,7 @@
             this.txtSexe.Size = new System.Drawing.Size(245, 36);
             this.txtSexe.TabIndex = 35;
             // 
-            // FrmCreateEtudiant
+            // CreateEtudiant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -240,8 +240,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "FrmCreateEtudiant";
+            this.Name = "CreateEtudiant";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.CreateEtudiant_Load_2);
             this.ResumeLayout(false);
             this.PerformLayout();
 

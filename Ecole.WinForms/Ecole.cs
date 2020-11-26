@@ -41,7 +41,7 @@ namespace CC01.WinForms
 
         private void btnCreer_Click(object sender, EventArgs e)
         {
-            Form f = new CreateEcole(loadData);
+            Form f = new FrmCreateEcole(loadData);
 
             f.Show();
         }
@@ -115,6 +115,11 @@ namespace CC01.WinForms
                     f.ShowDialog();
                 }
             }
+        }
+
+        private void FrmEcoleEdit_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

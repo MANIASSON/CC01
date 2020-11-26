@@ -51,6 +51,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // fichierToolStripMenuItem
             // 
@@ -76,14 +77,12 @@
             this.deconneToolStripMenuItem.Name = "deconneToolStripMenuItem";
             this.deconneToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.deconneToolStripMenuItem.Text = "Etudiants";
-
             // 
             // quitterToolStripMenuItem
             // 
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
             this.quitterToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.quitterToolStripMenuItem.Text = "Ecole";
-
             // 
             // deconnectionToolStripMenuItem
             // 
@@ -109,16 +108,16 @@
             this.aideToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.aideToolStripMenuItem.Text = "Aide";
             // 
-            // Parents
+            // Parent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Parents";
+            this.Name = "Parent";
             this.Text = "Parents";
-          
+            this.Load += new System.EventHandler(this.Parent_Load_1);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

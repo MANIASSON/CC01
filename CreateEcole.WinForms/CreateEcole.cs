@@ -1,5 +1,4 @@
 ﻿using CC01.BO;
-using CC01.DAL;
 using CC01.BLL;
 using System;
 using System.Collections.Generic;
@@ -149,6 +148,11 @@ namespace CC01.WinForms
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             pictureBox1.ImageLocation = null;
+        }
+
+        private void FrmCreateEcole_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
